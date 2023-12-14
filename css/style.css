@@ -84,14 +84,39 @@ i {
     text-align: center;
 }
 
+.article-photo{
+    position: relative;
+}
+
+
 .like {
     position: absolute;
     right: 0;
     top: 10px;
 }
 
-.article-photo{
-    position: relative;
+h4{
+    font-size: 28px;
+}
+
+.sale {
+    position: absolute;
+    bottom: 300px;
+    left: 270px;
+    color: white;
+    display: inline-block;
+}
+
+.sale-discount {
+    background-color: #FF0000;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+.eco {    
+    background-color: #008000;
+    display: inline-block;
+    padding: 10px 16px;
 }
 
 /* fine sezione main */
