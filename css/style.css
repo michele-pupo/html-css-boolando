@@ -6,7 +6,7 @@
 /* reset */
 
 
-/* sezione navbar */
+/* sezione header */
 header {
     background-color: #FF6900;
     padding-top:20px;
@@ -35,4 +35,19 @@ login i, a{
     margin: auto;
 }
 
-/* fine sezione navbar */
+/* fine sezione header */
+
+/* sezione main */
+.card-container {
+    padding: 50px 0;
+}
+
+.container-flex {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* fine sezione main */
