@@ -7,8 +7,32 @@
 
 
 /* sezione navbar */
-nav {
+header {
     background-color: #FF6900;
+    padding-top:20px;
+    padding-bottom: 20px ;
+}
+
+login i, a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 3px;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.section-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout{
+    max-width: 1370px;
+    margin: auto;
 }
 
 /* fine sezione navbar */
