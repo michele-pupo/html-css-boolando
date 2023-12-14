@@ -43,18 +43,36 @@ header {
 }
 
 .article-buy {
-    width: calc(( 100% - 60px ) / 3);
+    width: calc(( 100% - 80px ) / 3);
 }
 
 .container-flex {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
+    row-gap: 100px ;
 }
 
 img {
     width: 100%;
     display: block;
+}
+
+.info-article{
+    margin-top: 5px;
+}
+
+span{
+    font-size: 16px;
+}
+
+h3{
+    color: red;
+}
+
+.discount{
+    text-decoration: line-through;
+    color: black;
 }
 
 
