@@ -88,6 +88,19 @@ i {
     position: relative;
 }
 
+.photo-1:hover{
+    opacity: 0;
+}
+
+.photo-1{
+    width: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.photo-2 {
+    width: 100%;
+}
 
 .like {
     position: absolute;
