@@ -75,6 +75,23 @@ h3{
     color: black;
 }
 
+i {
+    padding: 12px;
+    display: inline-block;
+    font-size: 40px;
+    background-color: white;
+    line-height: 50px;
+    text-align: center;
+}
 
+.like {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.article-photo{
+    position: relative;
+}
 
 /* fine sezione main */
