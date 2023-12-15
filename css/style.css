@@ -21,6 +21,7 @@ header {
     text-decoration: none;
     color: white;
     font-size: 25px;
+    padding-left: 10px;
 }
 
 .logo img{
@@ -39,6 +40,10 @@ header {
 
 .login{
     color: black;
+}
+
+.login a{
+    font-size: 30px;
 }
 
 /* fine sezione header */
