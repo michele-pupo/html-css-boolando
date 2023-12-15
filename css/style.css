@@ -14,7 +14,8 @@ body {
 header {
     background-color: #FF6900;
     padding-top:20px;
-    padding-bottom: 20px ;
+    padding-bottom: 20px;
+    filter: drop-shadow(black 3px 3px 3px);
 }
 
 .links a{
