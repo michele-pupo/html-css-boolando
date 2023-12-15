@@ -110,6 +110,14 @@ i {
     width: 100%;
 }
 
+.like{
+    position: relative;
+}
+
+.like:hover {
+    color: red;
+}
+
 /* fine sezione foto */
 .like {
     position: absolute;
