@@ -112,9 +112,8 @@ i {
 }
 
 .photo-1{
-    width: 100%;
     position: absolute;
-    transition: 1s;
+    transition:opacity .3s;
 }
 
 .photo-2 {
