@@ -21,6 +21,7 @@ header {
     padding-top:20px;
     padding-bottom: 20px;
     filter: drop-shadow(black 3px 3px 3px);
+
 }
 
 .links a{
@@ -56,7 +57,7 @@ header {
 
 /* sezione main */
 .card-container {
-    padding: 60px 270px;
+    padding: 120px 270px 60px 270px;
 }
 
 .article-buy {
@@ -67,7 +68,7 @@ header {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
-    row-gap: 100px ;
+    row-gap: 70px ;
 }
 
 img {
@@ -126,6 +127,7 @@ i {
 
 .like:hover {
     color: red;
+    cursor: pointer;
 }
 
 /* fine sezione foto */
@@ -176,7 +178,8 @@ h5{
 .text-footer{
     max-width: 2500px;
     margin: auto;
-    padding-top: 50px;
+    padding: 50px 20px 0px 20px;
+
 
 }
 
