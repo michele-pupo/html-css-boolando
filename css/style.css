@@ -1,192 +1,287 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/* reset */
-
-body {
-    font-family: sans-serif;
-}
-
+*{     margin: 0;     padding: 0;     box-sizing: border-box; } /* reset */  
+body {     
+    font-family: sans-serif; 
+}   
 
 /* sezione header */
-header {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    z-index: 10;
-    background-color: #FF6900;
-    padding-top:20px;
-    padding-bottom: 20px;
-    filter: drop-shadow(black 3px 3px 3px);
+header {     
+    position: fixed;     
+    top: 0%;     
+    left: 0%;     
+    width: 100%;     
+    z-index: 10;     
+    background-color: #FF6900;     
+    padding-top:20px;     
+    padding-bottom: 20px;     
+    filter: drop-shadow(black 3px 3px 3px);  
+}  
 
-}
+.links a{     
+    text-decoration: none;     
+    color: white;     
+    font-size: 25px;     
+    padding-left: 10px; 
+}  
 
-.links a{
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    padding-left: 10px;
-}
+.logo img{     
+    width: 200px; 
+}  
 
-.logo img{
-    width: 200px;
-}
+.section-links{     
+    display: flex;     
+    justify-content: space-between; 
+}  
 
-.section-links{
-    display: flex;
-    justify-content: space-between;
-}
+.layout{     
+    max-width: 2500px;     
+    margin: auto; 
+}  
 
-.layout{
-    max-width: 2500px;
-    margin: auto;
-}
+.login{     
+    color: black; 
+}  
 
-.login{
-    color: black;
-}
-
-.login a{
-    font-size: 30px;
-}
-
-/* fine sezione header */
+.login a{     
+    font-size: 30px; 
+}  
+/* fine sezione header */  
 
 /* sezione main */
-.card-container {
-    padding: 120px 270px 60px 270px;
-}
+.card-container {     
+    padding: 120px 270px 60px 270px; 
+}  
 
-.article-buy {
-    width: calc(( 100% - 80px ) / 3);
-}
+.article-buy {     
+    width: calc(( 100% - 80px ) / 3); 
+}  
 
-.container-flex {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-    row-gap: 70px ;
-}
+.container-flex {     
+    display: flex;     
+    gap: 40px;     
+    flex-wrap: wrap;     
+    row-gap: 70px ; 
+}  
 
-img {
-    width: 100%;
-    display: block;
-}
+img {     
+    width: 100%;     
+    display: block; 
+}  
 
-.info-article{
-    margin-top: 5px;
-}
+.info-article{     
+    margin-top: 5px; 
+}  
 
-span{
-    font-size: 16px;
-}
+span{     
+    font-size: 16px; 
+}  
 
-h3{
-    color: red;
-}
+h3{     
+    color: red; 
+}  
 
-.discount{
-    text-decoration: line-through;
-    color: black;
-}
+.discount{     
+    text-decoration: line-through;     
+    color: black; 
+}  
 
-i {
-    padding: 25px;
-    display: inline-block;
-    font-size: 70px;
-    background-color: white;
-    line-height: 50px;
-    text-align: center;
-}
+i {     
+    padding: 25px;     
+    display: inline-block;     
+    font-size: 70px;     
+    background-color: white;     
+    line-height: 50px;     
+    text-align: center; 
+}  
 
-/* sezione foto */
+/* sezione foto */  
+.article-photo{     
+    position: relative; 
+}  
 
-.article-photo{
-    position: relative;
-}
+.photo-1:hover{     
+    opacity: 0; 
+}  
 
-.photo-1:hover{
-    opacity: 0;
-}
+.photo-1{     
+    position: absolute;     
+    transition:opacity .3s; 
+}  
 
-.photo-1{
-    position: absolute;
-    transition:opacity .3s;
-}
+.photo-2 {     
+    width: 100%; 
+}  
 
-.photo-2 {
-    width: 100%;
-}
+.like{     
+    position: relative; 
+}  
 
-.like{
-    position: relative;
-}
-
-.like:hover {
-    color: red;
-    cursor: pointer;
-}
+.like:hover {     
+    color: red;     
+    cursor: pointer; 
+}  
 
 /* fine sezione foto */
-.like {
-    position: absolute;
-    right: 0;
-    top: 10px;
+.like {     
+    position: absolute;     
+    right: 0;     
+    top: 10px; 
+}  
+
+h4{     
+    font-size: 28px; 
+}  
+
+.sale {     
+    position: absolute;     
+    bottom: 80px;     
+    left: 0px;     
+    color: white;     
+    display: inline-block; 
+}  
+
+.sale-discount {     
+    background-color: #FF0000;     
+    display: inline-block;     
+    padding: 10px 16px; 
+}  
+
+.eco {         
+    background-color: #008000;     
+    display: inline-block;     
+    padding: 10px 16px; 
+}  
+/* fine sezione main */  
+
+/* sezione footer */  
+footer {     
+    background-color: #1A1A1A;     
+    height: 150px; 
+}  
+
+h5{     
+    color: white;     
+    font-size: 20px; 
+}  
+
+.text-footer{     
+    max-width: 2500px;     
+    margin: auto;     
+    padding: 50px 20px 0px 20px;   
+}  
+
+.container{     
+    display: flex;     
+    flex-wrap: wrap;     
+    justify-content: space-between; 
+}   
+/* fine sezione footer */
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1200px) {
+    .card-container {
+        padding: 120px 100px 60px 100px;
+    }
+    
+    .article-buy {
+        width: calc(( 100% - 40px ) / 2);
+    }
 }
 
-h4{
-    font-size: 28px;
+@media screen and (max-width: 768px) {
+    .card-container {
+        padding: 120px 30px 60px 30px;
+    }
+    
+    .article-buy {
+        width: 100%;
+    }
+    
+    .section-links {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .links {
+        margin-bottom: 10px;
+    }
+    
+    .links a {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    
+    .logo img {
+        width: 150px;
+    }
+    
+    .login a {
+        font-size: 25px;
+    }
+    
+    .container-flex {
+        gap: 20px;
+        row-gap: 40px;
+    }
+    
+    i {
+        padding: 15px;
+        font-size: 50px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
+    
+    .sale {
+        bottom: 60px;
+    }
+    
+    .sale-discount, .eco {
+        padding: 5px 10px;
+    }
 }
 
-.sale {
-    position: absolute;
-    bottom: 80px;
-    left: 0px;
-    color: white;
-    display: inline-block;
-}
-
-.sale-discount {
-    background-color: #FF0000;
-    display: inline-block;
-    padding: 10px 16px;
-}
-
-.eco {    
-    background-color: #008000;
-    display: inline-block;
-    padding: 10px 16px;
-}
-
-/* fine sezione main */
-
-/* sezione footer */
-
-footer {
-    background-color: #1A1A1A;
-    height: 150px;
-}
-
-h5{
-    color: white;
-    font-size: 20px;
-}
-
-.text-footer{
-    max-width: 2500px;
-    margin: auto;
-    padding: 50px 20px 0px 20px;
-
-
-}
-
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+@media screen and (max-width: 480px) {
+    header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .links a {
+        font-size: 16px;
+        margin: 0 5px;
+    }
+    
+    .logo img {
+        width: 100px;
+    }
+    
+    .login a {
+        font-size: 20px;
+    }
+    
+    .card-container {
+        padding: 100px 15px 40px 15px;
+    }
+    
+    .container-flex {
+        gap: 10px;
+        row-gap: 20px;
+    }
+    
+    span {
+        font-size: 14px;
+    }
+    
+    h3 {
+        font-size: 16px;
+    }
+    
+    i {
+        padding: 10px;
+        font-size: 40px;
+    }
 }
 
 
